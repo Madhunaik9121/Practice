@@ -1,1 +1,41 @@
+#tuple - is immutable and allow duplicate
 
+#index()
+t = (10, 20, 30, 20)
+print(t.index(30)) #2
+
+#using loop we can print the set items
+
+fruit = ("apple", "banana", "cherry")
+for x in fruit:
+  print(x)
+
+#while
+
+fruit= ("apple", "banana", "cherry")
+i = 0
+while i < len(fruit):
+  print(fruit[i])
+  i = i + 1
+
+#here we can add and multiply the tuple
+#addition
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+
+print(mytuple)
+
+#multiple
+fruits = ("apple", "banana", "cherry")
+fruits2 = ("melon", "jam")
+adition = fruits + fruits2
+
+print(adition)
+
+#count() we can count the values how man time we have in the tuple
+
+x = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+
+y = x.count(5)
+
+print(y)
