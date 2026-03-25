@@ -1,2 +1,83 @@
+# tuple is immutable and duplicates are allowed
+# I just want to print the list
+
+fruit = ["apple", "banana", "cherry"]
+print(fruit)
+
+# Methods in list
+# 1. len()
+
+# x = fruit.len()
+#print(x)
+
+# type()
+
+fruit = ["apple", "banana", "cherry"]
+print(type(fruit))
+
+# we can access the list by using index number
+
+fruit = ["apple", "banana", "cherry"]
+print(fruit[1])
+print(fruit[1:2]) #banana 
+
+# append()
+
+fruit = ["apple", "banana", "cherry"]
+fruit.append("mango")
+print(fruit)
+
+#extend() we can extend the list by using etend()
+
+fruit = ["apple", "banana", "cherry"]
+myfruit = ["grapes", "watermelon"]
+fruit.extend(myfruit)
+print(fruit)
+
+# remove() method removes the specified item.
+
+fruit = ["apple", "banana", "cherry"]
+x = fruit.remove("cherry")
+print(x)
+
+#pop() this method remove the last item
+
+fruit = ["apple", "banana", "cherry"]
+fruit.pop()
+print(fruit)
+
+
+fruit = ["apple", "banana", "cherry"]
+for x in fruit:
+  print(x)
+  
+#can we loop through the list items by using a while loop.
+
+fruit = ["apple", "banana", "cherry"]
+i = 0
+while i < len(fruit):
+  print(fruit[i])
+  i = i + 1
+  
+#sort() we can sort the items in assending order
+
+fruits = ["orange", "mango", "kiwi", "pineapple", "banana"]
+fruits.sort()
+print(fruits)
+
+# we want print decending order reverse = True
+
+x = ["orange", "mango", "kiwi", "pineapple", "banana"]
+x.sort(reverse = True)
+print(x)
+
+#join the list
+
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+
 
 
