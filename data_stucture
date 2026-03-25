@@ -1,0 +1,17 @@
+mylist = ["madhunaik",1,2,3,5,6]
+mytuple = (2,3,4,6,7,8)
+mydict = {"name" : "madhunaik", "age" : 25, "place" : "bangaluru", "company" : "aditi"}
+myset = {2,2,3,4,5,4,5,6,7}
+
+list2 = list(range(1, 51))
+even = []
+odd = []
+
+for i in list2:
+    if i % 2 == 0:
+        even.append(i)
+    else:
+        odd.append(i)
+
+print("even numbers:", even)
+print("odd numbers:", odd)
