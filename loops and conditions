@@ -1,0 +1,27 @@
+#while loop
+i = 1
+while i<=5:
+  print("numbers ",i)
+  i+=1
+#for loop
+for i in range(1, 6):
+    print("For loop number:", i)
+
+# user only give the input and it will check by using the condtion and print the value its a even or odd number
+n = int(input("enter a number :"))
+if n%2 == 0:
+    print("even :",n)
+else:
+    print("odd :",n) 
+
+#polindrome 
+text = input("Enter a word: ")
+rev = ""
+
+for ch in text:
+    rev = ch + rev
+
+if text == rev:
+    print("It is a palindrome")
+else:
+    print("It is not a palindrome")
