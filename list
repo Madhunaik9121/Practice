@@ -1,4 +1,4 @@
-# tuple is immutable and duplicates are allowed
+# tuple is mutable and duplicates are allowed
 # I just want to print the list
 
 fruit = ["apple", "banana", "cherry"]
