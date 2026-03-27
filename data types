@@ -1,0 +1,13 @@
+#Iterator 
+
+numbers = [10, 20, 30]
+it = iter(numbers)
+print(next(it))
+print(next(it))  
+print(next(it))
+
+#
+text = "hello"
+for char in text:
+    print(char)
+
